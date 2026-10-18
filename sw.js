@@ -1,4 +1,4 @@
-const CACHE = 'mein-zuhause-pwa-v1-1-20261018';
+const CACHE = 'mein-zuhause-pwa-v1-2-20261018';
 const OFFLINE = ['./', './index.html', './diagnose.html', './manifest.webmanifest', './icon-192.png', './icon-512.png'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(c => c.addAll(OFFLINE)).then(() => self.skipWaiting()));

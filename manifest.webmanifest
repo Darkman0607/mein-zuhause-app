@@ -4,7 +4,7 @@
   "description": "Privater Haushaltsassistent mit Putzplan, Wohnungsgrundriss, Fotos, Lagerbestand und Einkaufsliste.",
   "lang": "de-AT",
   "id": "./",
-  "start_url": "./index.html",
+  "start_url": "./?source=pwa",
   "scope": "./",
   "display": "standalone",
   "background_color": "#fff1f6",
@@ -21,6 +21,15 @@
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
+  ],
+  "display_override": [
+    "standalone"
   ]
 }
