@@ -1,13 +1,27 @@
-const CACHE='mein-zuhause-pwa-v1-20261018';
-const FILES=['./','./index.html','./manifest.webmanifest','./icon-192.png','./icon-512.png'];
-self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(FILES)).then(()=>self.skipWaiting()));});
-self.addEventListener('activate',event=>{event.waitUntil(Promise.all([caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('mein-zuhause-pwa-')&&k!==CACHE).map(k=>caches.delete(k)))),self.clients.claim()]));});
-self.addEventListener('fetch',event=>{
- if(event.request.method!=='GET')return;
- const url=new URL(event.request.url);
- if(url.origin!==self.location.origin)return;
- if(event.request.mode==='navigate'){
-  event.respondWith(fetch(event.request).then(r=>{if(r.ok){const copy=r.clone();caches.open(CACHE).then(c=>c.put('./index.html',copy));}return r;}).catch(()=>caches.match('./index.html')));return;
- }
- event.respondWith(caches.match(event.request).then(cached=>cached||fetch(event.request).then(resp=>{if(resp.ok)caches.open(CACHE).then(c=>c.put(event.request,resp.clone()));return resp;})));
+const CACHE = 'mein-zuhause-pwa-v1-1-20261018';
+const OFFLINE = ['./', './index.html', './diagnose.html', './manifest.webmanifest', './icon-192.png', './icon-512.png'];
+self.addEventListener('install', event => {
+  event.waitUntil(caches.open(CACHE).then(c => c.addAll(OFFLINE)).then(() => self.skipWaiting()));
+});
+self.addEventListener('activate', event => {
+  event.waitUntil((async () => {
+    const keys = await caches.keys();
+    await Promise.all(keys.filter(k => k.startsWith('mein-zuhause-pwa-') && k !== CACHE).map(k => caches.delete(k)));
+    await self.clients.claim();
+  })());
+});
+self.addEventListener('fetch', event => {
+  const req = event.request;
+  if(req.method !== 'GET' || new URL(req.url).origin !== location.origin) return;
+  if(req.mode === 'navigate') {
+    event.respondWith(fetch(req).then(response => {
+      if(response.ok) { const copy=response.clone(); caches.open(CACHE).then(c => c.put(req,copy)); }
+      return response;
+    }).catch(async () => (await caches.match(req)) || (await caches.match('./index.html'))));
+    return;
+  }
+  event.respondWith(caches.match(req).then(cached => cached || fetch(req).then(response => {
+    if(response.ok) { const copy=response.clone(); caches.open(CACHE).then(c=>c.put(req,copy)); }
+    return response;
+  })));
 });
