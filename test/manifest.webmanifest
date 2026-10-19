@@ -1,9 +1,9 @@
 {
-  "name": "Mein Zuhause – V1.6.1 TEST",
+  "name": "Mein Zuhause – V1.6.2 TEST",
   "short_name": "Mein Zuhause",
   "description": "Testversion: verbesserter Raumeditor, L-Formen und getrennte Seiten pro Reiter",
   "lang": "de-AT",
-  "id": "./?test=v161",
+  "id": "./?test=v162",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
