@@ -1,9 +1,9 @@
 {
-  "name": "Mein Zuhause – V1.4 TEST",
+  "name": "Mein Zuhause – V1.5 TEST",
   "short_name": "Zuhause TEST",
-  "description": "Abgeschlossene Testversion – getrennt von der normalen Haushalts-App.",
+  "description": "Testversion mit Putzkalender und Hygiene- und Handschuhberater.",
   "lang": "de-AT",
-  "id": "./?test=v14",
+  "id": "./?test=v15",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",

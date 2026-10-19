@@ -1,5 +1,9 @@
-Mein Zuhause V1.4 TEST – Aufgaben 4 und 7
-Separat in GitHub-Ordner test-v14 laden. Nicht in das Hauptverzeichnis!
-Testadresse: https://darkman0607.github.io/mein-zuhause-app/test-v14/
-Eigene v14-Speicherschlüssel; beim ersten Öffnen werden Daten aus V1.3-Test kopiert, sofern vorhanden. Die installierte V1.2 bleibt unverändert.
-Wichtig: Kein Cloud-Backup. Fotos benötigen Browserspeicher. Vor Updates Sicherung herunterladen.
+MEIN ZUHAUSE V1.5 TEST
+Aufgaben 5, 9, 20
+
+Upload: Dateien direkt in bestehenden GitHub-Ordner test/ hochladen und gleichnamige Dateien aktualisieren.
+Nicht das Hauptverzeichnis der installierten App überschreiben.
+
+Neu: Diagnose-Helferoberfläche entfernt; Kalender mit selbst angelegten Terminen und Fälligkeiten wiederkehrender Aufgaben; Hygiene- und Handschuhberater.
+Keine echten Push-Benachrichtigungen (Aufgabe 10). Keine automatische Datensynchronisierung.
+Vorhandene V1.4-Testdaten werden bei erstmaligem Start in den getrennten V1.5-Speicher übernommen.
