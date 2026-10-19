@@ -1,13 +1,9 @@
-MEIN ZUHAUSE V1.6 TEST
-Aufgaben: 6 (Putzschule erweitert) und 7 Ausbau (professionellerer 2D-Grundriss mit L-Formen)
+V1.6.1 TEST – Verbesserter Raumeditor und Navigation
 
-Upload: Dateien direkt in den bestehenden GitHub-Testordner test/ hochladen und gleichnamige Dateien aktualisieren.
-Nicht das Hauptverzeichnis der installierten App überschreiben.
+Enthält alle bisherigen Funktionen von V1.6.
 
-Neu in V1.6:
-- Deutlich erweiterte Putzschule mit vielen zusätzlichen Reinigungsanleitungen
-- Professionellerer 2D-Grundriss
-- Bessere Darstellung von Türen und Fenstern
-- Raumformen: Rechteck oder L-Form (mit ausgesparter Ecke)
+Neu: Eigener Reiter Grundriss, verbesserte Raumbeschriftungen, Fingerbedienung, L-Form-Raumeditor und getrennte Navigation mit Zurück-Funktion.
 
-Hinweis: Für L-Formen zuerst im Grundriss auf Bearbeiten gehen und dann im Bereich 'Raumform gestalten' den gewünschten Raum und die Form einstellen.
+Bestehenden GitHub-Ordner test/ aktualisieren (nicht Hauptverzeichnis).
+
+ACHTUNG: Testdaten werden beim ersten Start aus V1.6 kopiert. Die Daten bleiben im jeweiligen Browser gespeichert. Vor Updates eine Datensicherung erstellen.

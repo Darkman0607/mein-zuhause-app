@@ -1,9 +1,9 @@
 {
-  "name": "Mein Zuhause – V1.6 TEST",
+  "name": "Mein Zuhause – V1.6.1 TEST",
   "short_name": "Mein Zuhause",
-  "description": "Testversion mit erweiterter Putzschule und verbessertem 2D-Grundriss.",
+  "description": "Testversion: verbesserter Raumeditor, L-Formen und getrennte Seiten pro Reiter",
   "lang": "de-AT",
-  "id": "./?test=v16",
+  "id": "./?test=v161",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
