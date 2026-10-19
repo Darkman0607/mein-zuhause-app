@@ -1,7 +1,7 @@
 {
-  "name": "Mein Zuhause – Putz & Ordnung",
+  "name": "Mein Zuhause – V1.7",
   "short_name": "Mein Zuhause",
-  "description": "Privater Haushaltsassistent mit 2D-Grundriss, Putzschule, Aufgaben, Fotos und Lagerbestand.",
+  "description": "Haushalt und Putzschule mit XP, Putzis und Sammelkarten",
   "lang": "de-AT",
   "id": "./",
   "start_url": "./index.html",

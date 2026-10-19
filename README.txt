@@ -1,12 +1,6 @@
-MEIN ZUHAUSE – V1.6.2 OFFIZIELL
+Mein Zuhause V1.7 – Offizielles Update
 
-Für bestehende GitHub Pages App: alle fünf Dateien in das HAUPTVERZEICHNIS (main / root) hochladen, nicht in test/.
-- index.html
-- manifest.webmanifest
-- sw.js
-- icon-192.png
-- icon-512.png
-
-Die Daten-Schlüssel der ursprünglich installierten PWA werden beibehalten. Testdaten werden NICHT automatisch übernommen.
-Nach Veröffentlichung die installierte App vollständig schließen und erneut öffnen; ggf. nochmals neu laden. Nicht deinstallieren.
-Vor Update wenn möglich Datensicherung aufheben.
+Die fünf Dateien in das GitHub-Hauptverzeichnis hochladen, nicht in test/.
+Neu: XP, unbegrenzte Level, Putzis, 54 Sammelkarten mit 3 Kartentypen, Kartenpakete pro Level, Designs im Putzis-Shop.
+Aufgaben geben einmal täglich XP. Keine echten Geldpreise, keine Verifizierung von Fotos, keine bezahlten Lootboxen.
+Vorhandene Daten bleiben im gleichen lokalen Speicherbereich; vor dem Update Sicherung exportieren.
