@@ -1,9 +1,9 @@
 {
-  "name": "Mein Zuhause – V1.6 TEST",
+  "name": "Mein Zuhause – Putz & Ordnung",
   "short_name": "Mein Zuhause",
-  "description": "Testversion mit erweiterter Putzschule und verbessertem 2D-Grundriss.",
+  "description": "Privater Haushaltsassistent mit 2D-Grundriss, Putzschule, Aufgaben, Fotos und Lagerbestand.",
   "lang": "de-AT",
-  "id": "./?test=v16",
+  "id": "./",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
