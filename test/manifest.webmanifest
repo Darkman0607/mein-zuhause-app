@@ -1,9 +1,9 @@
 {
-  "name": "Mein Zuhause – V1.5 TEST",
-  "short_name": "Zuhause TEST",
-  "description": "Testversion mit Putzkalender und Hygiene- und Handschuhberater.",
+  "name": "Mein Zuhause – V1.6 TEST",
+  "short_name": "Mein Zuhause",
+  "description": "Testversion mit erweiterter Putzschule und verbessertem 2D-Grundriss.",
   "lang": "de-AT",
-  "id": "./?test=v15",
+  "id": "./?test=v16",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
