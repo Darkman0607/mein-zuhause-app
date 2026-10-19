@@ -1,9 +1,9 @@
 {
-  "name": "Mein Zuhause – V1.3 TEST",
+  "name": "Mein Zuhause – V1.4 TEST",
   "short_name": "Zuhause TEST",
   "description": "Abgeschlossene Testversion – getrennt von der normalen Haushalts-App.",
   "lang": "de-AT",
-  "id": "./test-v13",
+  "id": "./?test=v14",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
